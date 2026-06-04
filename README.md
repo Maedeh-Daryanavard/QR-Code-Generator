@@ -21,8 +21,9 @@ Convert any website link into a QR code that opens directly in a browser when sc
 
 📸 **Example**
 
-![URL QR Generator](screenshots/url_page.png)
-
+<p align="center">
+  <img src="screenshots/url_page.png" width="400">
+</p>
 ---
 
 ### 📝 Text QR Code
@@ -38,8 +39,9 @@ Store plain text inside a QR code. The text is displayed immediately when scanne
 
 📸 **Example**
 
-![Text QR Generator](screenshots/text_page.png)
-
+<p align="center">
+  <img src="screenshots/text_page.png" width="400">
+</p>
 ---
 
 ### 📧 Email QR Code
@@ -55,8 +57,9 @@ Create QR codes that automatically open an email draft with predefined recipient
 
 📸 **Example**
 
-![Email QR Generator](screenshots/email_page.png)
-
+<p align="center">
+  <img src="screenshots/email_page.png" width="400">
+</p>
 ---
 
 ### 📞 Phone QR Code
@@ -72,7 +75,10 @@ Generate QR codes that instantly start a phone call when scanned on a mobile dev
 
 📸 **Example**
 
-![Phone QR Generator](screenshots/phone_page.png)
+
+<p align="center">
+  <img src="screenshots/phone_page.png" width="400">
+</p>
 
 ---
 
@@ -91,8 +97,10 @@ Includes:
 
 📸 **Example**
 
-![vCard QR Generator](screenshots/vcard_page.png)
 
+<p align="center">
+  <img src="screenshots/vcard_page.png" width="400">
+</p>
 ---
 
 ### 📶 WiFi QR Code
@@ -107,8 +115,10 @@ Supports:
 
 📸 **Example**
 
-![WiFi QR Generator](screenshots/wifi_page.png)
 
+<p align="center">
+  <img src="screenshots/wifi_page.png" width="400">
+</p>
 ---
 
 ### 📍 Maps QR Code
@@ -124,9 +134,13 @@ Perfect for:
 
 📸 **Example**
 
-![Maps QR Generator](screenshots/map_page.png)
+<p align="center">
+  <img src="screenshots/map_page.png" width="400">
+</p>
 
-![Maps QR Generator](screenshots/map_page2.png)
+<p align="center">
+  <img src="screenshots/map_page2.png" width="400">
+</p>
 ---
 
 ### 📅 Event QR Code
@@ -143,7 +157,9 @@ Includes:
 
 📸 **Example**
 
-![Event QR Generator](screenshots/event_page.png)
+<p align="center">
+  <img src="screenshots/event_page.png" width="400">
+</p>
 
 
 ## 🔥 Why Use QR Generator Pro?
