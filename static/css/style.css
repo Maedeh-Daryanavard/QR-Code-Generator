@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 15px;
+}
+
+.app {
+    width: 100%;
+    max-width: 850px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0;
+    color: #1e293b;
+}
+
+header p {
+    color: #64748b;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.tab {
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    background: #e497dc;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tab.active {
+    background: #2563eb;
+    color: white;
+}
+
+.form-area {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #334155;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 110px;
+}
+
+.preview {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.qr-box {
+    border: 2px dashed #cbd5e1;
+    border-radius: 18px;
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qr-box img {
+    max-width: 220px;
+    display: none;
+}
+
+#placeholder {
+    color: #94a3b8;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button, .download {
+    padding: 13px 20px;
+    border-radius: 12px;
+    border: none;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.download {
+    background: #16a34a;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}

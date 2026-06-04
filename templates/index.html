@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Generator Pro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="app">
+    <header>
+        <h1>QR Generator Pro</h1>
+        <p>Create QR codes for URL, text, email, phone, WiFi, maps, events, and vCard.</p>
+    </header>
+
+    <div class="tabs">
+        <button class="tab active" data-type="url">URL</button>
+        <button class="tab" data-type="text">Text</button>
+        <button class="tab" data-type="email">Email</button>
+        <button class="tab" data-type="phone">Phone</button>
+        <button class="tab" data-type="vcard">vCard</button>
+        <button class="tab" data-type="wifi">WiFi</button>
+        <button class="tab" data-type="maps">Maps</button>
+        <button class="tab" data-type="event">Event</button>
+    </div>
+
+    <form id="qrForm">
+        <input type="hidden" name="qr_type" id="qr_type" value="url">
+
+        <div id="dynamicForm" class="form-area"></div>
+
+        <div class="preview">
+            <h2>Preview QR</h2>
+            <div class="qr-box">
+                <img id="qrPreview" src="" alt="QR Preview">
+                <p id="placeholder">Your QR code will appear here</p>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button type="submit">Generate</button>
+            <a id="downloadPng" class="download disabled">Download PNG</a>
+            <a id="downloadSvg" class="download disabled">Download SVG</a>
+        </div>
+    </form>
+</div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
