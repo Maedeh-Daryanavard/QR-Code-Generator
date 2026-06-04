@@ -22,7 +22,7 @@ Convert any website link into a QR code that opens directly in a browser when sc
 📸 **Example**
 
 <p align="center">
-  <img src="screenshots/url_page.png" width="150">
+  <img src="screenshots/url_page.png" width="300">
 </p>
 ---
 
@@ -40,7 +40,7 @@ Store plain text inside a QR code. The text is displayed immediately when scanne
 📸 **Example**
 
 <p align="center">
-  <img src="screenshots/text_page.png" width="150">
+  <img src="screenshots/text_page.png" width="300">
 </p>
 ---
 
@@ -58,7 +58,7 @@ Create QR codes that automatically open an email draft with predefined recipient
 📸 **Example**
 
 <p align="center">
-  <img src="screenshots/email_page.png" width="150">
+  <img src="screenshots/email_page.png" width="300">
 </p>
 ---
 
@@ -77,7 +77,7 @@ Generate QR codes that instantly start a phone call when scanned on a mobile dev
 
 
 <p align="center">
-  <img src="screenshots/phone_page.png" width="150">
+  <img src="screenshots/phone_page.png" width="300">
 </p>
 
 ---
@@ -99,7 +99,7 @@ Includes:
 
 
 <p align="center">
-  <img src="screenshots/vcard_page.png" width="150">
+  <img src="screenshots/vcard_page.png" width="300">
 </p>
 ---
 
@@ -117,7 +117,7 @@ Supports:
 
 
 <p align="center">
-  <img src="screenshots/wifi_page.png" width="150">
+  <img src="screenshots/wifi_page.png" width="300">
 </p>
 ---
 
@@ -135,11 +135,11 @@ Perfect for:
 📸 **Example**
 
 <p align="center">
-  <img src="screenshots/map_page.png" width="150">
+  <img src="screenshots/map_page.png" width="300">
 </p>
 
 <p align="center">
-  <img src="screenshots/map_page2.png" width="150">
+  <img src="screenshots/map_page2.png" width="300">
 </p>
 ---
 
@@ -158,7 +158,7 @@ Includes:
 📸 **Example**
 
 <p align="center">
-  <img src="screenshots/event_page.png" width="150">
+  <img src="screenshots/event_page.png" width="300">
 </p>
 
 
