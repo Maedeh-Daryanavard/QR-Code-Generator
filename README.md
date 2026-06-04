@@ -124,8 +124,9 @@ Perfect for:
 
 📸 **Example**
 
-![Maps QR Generator](screenshots/maps_page.png)
-![Maps QR Generator](screenshots/maps_page2.png)
+![Maps QR Generator](screenshots/map_page.png)
+
+![Maps QR Generator](screenshots/map_page2.png)
 ---
 
 ### 📅 Event QR Code
